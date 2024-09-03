@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo de Sílabas</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Jogo de Sílabas</h1>
+        <div class="game">
+            <div class="syllables">
+                <button class="syllable">ca</button>
+                <button class="syllable">sa</button>
+                <button class="syllable">so</button>
+                <button class="syllable">la</button>
+                <button class="syllable">pa</button>
+            </div>
+            <div class="word-formation">
+                <input type="text" id="formed-word" readonly>
+                <button id="clear-word">Limpar</button>
+            </div>
+            <button id="check-word">Verificar Palavra</button>
+        </div>
+        <div id="result"></div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
